@@ -43,7 +43,7 @@ const accessories = products.filter(function (p) {
 const allAccessoriesAvailable = accessories.every(function (p) {
     return p.isAvailable === true;
 });
-console.log("Câu 6 - Tất cả Accessories đang bán?", allAccessoriesAvailable);
+console.log("Tất cả Accessories đang bán?", allAccessoriesAvailable);
 
 // Câu 7: Tổng giá trị kho = price × quantity
 const totalInventoryValue = products.reduce(function (sum, p) {
