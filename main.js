@@ -1,4 +1,4 @@
-// ========== Câu 1: Constructor function Product ==========
+// Câu 1: Constructor function Product 
 function Product(id, name, price, quantity, category, isAvailable) {
     this.id = id;
     this.name = name;
@@ -8,7 +8,7 @@ function Product(id, name, price, quantity, category, isAvailable) {
     this.isAvailable = isAvailable;
 }
 
-// ========== Câu 2: Mảng products (ít nhất 6 sản phẩm, ít nhất 2 danh mục) ==========
+// Câu 2: Mảng products (ít nhất 6 sản phẩm, ít nhất 2 danh mục)
 const products = [
     new Product(1, "Laptop Dell XPS", 25000000, 10, "Electronics", true),
     new Product(2, "Tai nghe Sony", 3500000, 25, "Accessories", true),
